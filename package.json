@@ -1,0 +1,13 @@
+{
+	"name": "containers-starter",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"start": "wrangler dev"
+	},
+	"devDependencies": {
+		"wrangler": "https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/prs/8476/npm-package-wrangler-8476"
+	}
+}
